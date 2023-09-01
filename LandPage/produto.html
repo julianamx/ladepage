@@ -11,23 +11,24 @@
     <section class="sec">
         <header>
             <a href="#"><img src="imagens/logo.png" alt="" class="logo"></a>
-            <ul>
-                <li><a href="inicio.html">Início</a></li>
-                <li><a href="produto.html">Produto</a></li>
-                <li><a href="novo.html">O que há de novo</a></li>
-                <li><a href="noticia.html">Notícias</a></li>
-                <li><a href="#">Contato</a></li>
+            <ul>                
+                <li><a href="#">Produto</a></li>
+                
             </ul>
         </header> <!--fim header-->
 
         <div class="content">
             <div class="textbox">
                 <h2>É isso que<br><span>Eu gosto</span></h2>
-                <p>aquilo que refresca, que esfria</p>
-                <a href="">Escolha o seu produto</a>
+                <p>A PepsiCo gerou mais de US$ 70 bilhões em receita líquida global em 2020, impulsionada por um portfólio complementar de alimentos e bebidas que, no Brasil, inclui PEPSI®️, GATORADE®️, QUAKER®️, LAY'S®️, DORITOS®️, RUFFLES®️, CHEETOS®️, KERO COCO®️, H2OH!</p>
+                <a href="index.html">retornar</a>
             </div><!--fim do textbox-->
             <div class="imgbox">
                 <img src="imagens/pepsi001.png" alt="" class="pepsi">
+                <img src="imagens/pepsi002.png" alt="" class="pepsi">
+                <img src="imagens/pepsi003.png" alt="" class="pepsi">
+
+
 
             </div><!--fim do imgbox-->
 
@@ -39,26 +40,10 @@
             <li><img src="imagens/pepsi003.png" onclick="imgSlider('imagens/pepsi003.png');changeBgcolor('#1e1e1e')"></li>
 
         </ul><!--fim do thumb-->
+    </section>
 
-        <ul class="sci">
-            <li><a href="#"><img src="imagens/facebook.png"></a></li>
-            <li><a href="#"><img src="imagens/twitter.png"></a></li>
-            <li><a href="#"><img src="imagens/instagram.png"></a></li>
-        </ul><!--fim do sci-->
-
-    </section><!--fim seção-->
-
-    <script type="text/javascript">
-        
-    function imgSlider(anything){
-        document.querySelector('.pepsi').src = anything;
-    }
-    function changeBgcolor(color){
-        const sec = document.querySelector('.sec');
-        sec.style.background = color;
-    }
-
-    </script>
+</head>
+<body>
     
 </body>
 </html>

@@ -20,6 +20,30 @@ section{
     background: #0062be;
     transition: 0.5s;
 }
+ .noticia{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #00080f;
+    transition: 0.5s;
+
+}
+.novo{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #d36b9f;
+    transition: 0.5s;
+
+}
 
 header{
     position: absolute;
@@ -66,6 +90,7 @@ header ul li a:hover{
 
 }
 
+
 .content .textbox{
     position: relative;
     max-width: 600px;
@@ -99,6 +124,8 @@ header ul li a:hover{
     text-decoration: none;
     text-transform: uppercase;
 }
+
+
 
 .content .imgbox{
     width: 600px;
